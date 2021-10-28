@@ -1,0 +1,55 @@
+<!--
+Nathan Sivak
+unique id: sivaknc
+October 27 2021
+CSE 102 Section A
+Lab 8 Assignment
+Home page
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Nathan Sivak</title>
+  <link rel="stylesheet" href="styleme.css">
+  <script>
+  function HomePage() {
+    document.location.href = "index.html";
+  }
+  function Classes() {
+    document.location.href = "classes.html";
+  }
+  function Favorites() {
+    document.location.href = "my_favorite.html";
+  }
+  function Moods() {
+    document.location.href = "my_mood.html";
+  }
+  function Family() {
+    document.location.href = "my_family.html";
+  }
+  function ColorChange() {
+    document.body.style.background = 'lightyellow';
+  }
+  </script>
+</head>
+<body>
+  <button onclick="HomePage()">Home</button>
+  <button onclick="Classes()">Classes</button>
+  <button onclick="Favorites()">Favorites</button>
+  <button onclick="Moods()">Moods</button>
+  <button onclick="Family()">Family</button>
+  <hr>
+  <h1>Nathan Sivak</h1>
+  <img src="karate.JPG" width="40%" height="40%" align="left" hspace="100" vspace="0">
+  <p>My name is Nathan Sivak and I am a Junior at Miami University. I am from Cleveland, Ohio where I grew up with my sister,
+    mom, and dad. Growing up, I had three dogs, a bunch of fish, and a turtle named Rocky. Two weeks ago, I got my first hamster
+    named Jade who lives with me in my off campus apartment. She is a black and white Syrian Hamster who loves broccli.
+    I am currently majoring in Software Engineering with a General Business minor. In the past, I was involved with Miami's
+    Stage Left club and was in their 2019 show, "Pippin". Currently, I am a member of the Miami Martial Arts Club where we train
+     in traditional Taekwondo, Hapkido, and Judo. I am also an assistant instructor at my karate school back home where I have
+     been training in traditonal Taekwondo, Hapkido, and Kickboxing for over eight years.</p>
+  <hr>
+  <button onclick="ColorChange()">Change Background Color</button>
+</body>
+</html>

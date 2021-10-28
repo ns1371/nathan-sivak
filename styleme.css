@@ -1,0 +1,23 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  font-family: verdana;
+  color: green;
+}
+
+p {
+  color: indigo;
+  font-size: large;
+}
+
+ul {
+  color: indigo;
+  font-size: large;
+}
+
+ol {
+  color: indigo;
+  font-size: large;
+}

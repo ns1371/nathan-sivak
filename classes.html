@@ -1,0 +1,53 @@
+<!--
+Nathan Sivak
+unique id: sivaknc
+October 27 2021
+CSE 102 Section A
+Lab 8 Assignment
+Classes page
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Classes</title>
+    <link rel="stylesheet" href="styleme.css">
+    <script>
+    function HomePage() {
+      document.location.href = "index.html";
+    }
+    function Classes() {
+      document.location.href = "classes.html";
+    }
+    function Favorites() {
+      document.location.href = "my_favorite.html";
+    }
+    function Moods() {
+      document.location.href = "my_mood.html";
+    }
+    function Family() {
+      document.location.href = "my_family.html";
+    }
+    function ColorChange() {
+      document.body.style.background = 'lightyellow';
+    }
+    </script>
+  </head>
+  <body>
+    <button onclick="HomePage()">Home</button>
+    <button onclick="Classes()">Classes</button>
+    <button onclick="Favorites()">Favorites</button>
+    <button onclick="Moods()">Moods</button>
+    <button onclick="Family()">Family</button>
+    <hr>
+    <h1>My Classes:</h1>
+    <ul>
+      <li>CSE 102 - Computer Science and Software Engineering</li>
+      <li>CSE 212 - Software Engineering for UI/UX</li>
+      <li>CSE 262 - Tech, Ethics, and Global Society</li>
+      <li>CSE 274 - Data Abstractions and Structures</li>
+      <li>MTH 231 - Elements of Discrete Math</li>
+    </ul>
+    <hr>
+    <button onclick="ColorChange()">Change Background Color</button>
+  </body>
+</html>
